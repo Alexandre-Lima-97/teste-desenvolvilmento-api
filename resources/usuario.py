@@ -60,3 +60,5 @@ class UserLogout(Resource):
                 jwt_id = get_jwt()['jti']
                 BLOCKLIST.add(jwt_id)
                 return {'message': "Logout Successfully!"}
+
+                
